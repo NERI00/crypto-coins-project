@@ -1,0 +1,77 @@
+body {
+    background-image: url(./crypto-project-background.jpg);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: initial;
+    background-position: initial;
+}
+
+#main-container {
+    margin-top: 130px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 350px;
+    margin: 15px;
+    padding: 5px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.form-check {
+    display: flex;
+    justify-content: left;
+}
+
+#flexSwitchCheckDefault {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-container {
+    background-color: whitesmoke;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+}
+
+.form-control {
+    width: 184px;
+    padding: 5px;
+
+}
+
+.card-title {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#nav-buttons {
+    padding: 1px;
+}
+
+#header {
+    text-align: left;
+    margin-left: 15px;
+}
+
+#search-input {
+    width: 45px;
+
+}
+
+#coinsDisplay {
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
